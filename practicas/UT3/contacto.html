@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio | Monkeyflip</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <table>
+                <tr>
+                    <th>
+                        <img src="imgs/logo.jpeg" alt="Monkeyflip logo" width="250px">
+                    </th>
+                    <th>
+                        <h1 id="titulo">Monkeyflip</h1>
+                    </th>
+                    <td>
+                        <a href="index.html" target="_self"><h3 class="link">Inicio</h3></a>
+                    </td>
+                    
+                    <td>
+                        <a href="sobre-nosotros.html" target="_self"><h3 class="link">Sobre nosotros</h3></a>
+                    </td>
+                    <td>
+                        <a href="catalogo.html" target="_self"><h3 class="link">Catálogo</h3></a>
+                    </td>
+                    <td>
+                        <a href="contacto.html" target="_self"><h3 class="link">Contáctanos</h3></a>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <article class="fondoRojo">
+            <table class="textoBlanco">
+                <tr>
+                    <th colspan="2"><h1>¡Déjanos un comentario!</h1></th>
+                </tr>
+                <tr>
+                    <td><h3>P.º de la Marina Española, 90, 51001 Ceuta</h3><br><h3>Teléfono: +34 956 145 873</h3><br><h3>Correo: contacto@monkeyflip.es</h3></td>
+                    <td>
+                        <form action="mailto:contacto@monkeyflip.es" method="get">
+                            <label for="nombre">Nombre (*)</label><br>
+                            <input type="text" name="nombre" required placeholder="Introduce tu nombre"><br>
+                            <label for="direccion">Dirección</label><br>
+                            <input type="text" name="direccion" placeholder="Introduce tu dirección"><br>
+                            <label for="email">Email (*)</label><br>
+                            <input type="text" name="email" required placeholder="Introduce tu email"><br>
+                            <label for="telefono">Teléfono</label><br>
+                            <input type="number" name="telefono" placeholder="Introduce tu Teléfono"><br>
+                            <label for="asunto">Asunto (*)</label><br>
+                            <input type="text" name="asunto" required placeholder="Escribe el asunto"><br>
+                            <label for="mensaje">Mensaje (*)</label><br>
+                            <input type="text" name="mensaje" required placeholder="Escribe tu mensaje"><br>
+                            <button type="submit" id="botonContacto">Enviar</button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </article>
+        <footer>
+            <h1 class="textoRojo">Si quieres enterarte de lo último déjanos tu correo</h1>
+            <form>
+                <table>
+                    <tr>
+                        <th>
+                            <form action="mailto:noticias@monkeyflip.es" method="get">
+                                <input type="text" placeholder="email@example.com">
+                                <button type="submit">Contáctanos</button>
+                            </form>
+                        </th>
+                    </tr>
+                </table>
+            </form>
+        </footer>
+    </body>
+</html>
