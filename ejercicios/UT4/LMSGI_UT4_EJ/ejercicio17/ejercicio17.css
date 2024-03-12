@@ -1,0 +1,35 @@
+#punteado {
+    border-style: dotted;
+}
+
+#guiones {
+    border-style: dashed;
+}
+
+#solido {
+    border-style: solid;
+}
+
+#doble {
+    border-style: double;
+}
+
+#interno {
+    border-style: inset;
+}
+
+#externo {
+    border-style: outset;
+}
+
+#no_border {
+    border-style: none;
+}
+
+#escondido {
+    border-style: hidden;
+}
+
+#mixto {
+    border-style: dotted dashed solid double;
+}

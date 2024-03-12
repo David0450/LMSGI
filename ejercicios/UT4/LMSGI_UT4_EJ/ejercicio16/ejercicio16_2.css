@@ -1,0 +1,5 @@
+body {
+    background-image: url("paisaje.png");
+    background-size: 300px 300px;
+    background-repeat: repeat-y;
+}

@@ -1,0 +1,15 @@
+#overline {
+    text-decoration: overline red 3px;
+}
+
+#through {
+    text-decoration: line-through blue 2px;
+}
+
+#underline {
+    text-decoration: underline green 2px;
+}
+
+#overunderline {
+    text-decoration: underline overline purple;
+}

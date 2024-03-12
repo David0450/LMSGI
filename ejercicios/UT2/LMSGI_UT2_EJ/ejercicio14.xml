@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html [
+    <!ELEMENT html (head, body)>
+    <!ELEMENT head (title)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT body (br, p)>
+    <!ELEMENT br EMPTY>
+    <!ELEMENT p (#PCDATA)>
+]>
+<html>
+    <head>
+        <title>Título del HTML</title>
+    </head>
+    <body>
+        <br/>
+        <p>Esto es un párrafo</p>
+    </body>
+</html>

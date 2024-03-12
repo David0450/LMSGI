@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros>
+
+<libros>
+    <libro anno_publicacion="2023">
+        <titulo>Git y Github desde cero</titulo>
+        <autor>Brais Moure</autor>
+        <isbn>979-8391200475</isbn>
+        <paginas>321</paginas>
+    </libro>
+    <libro anno_publicacion="2012">
+        <titulo>Código Limpio</titulo>
+        <autor>Robert C. Martin</autor>
+        <isbn>978-8441532106</isbn>
+        <paginas>463</paginas>
+    </libro>
+    <libro anno_publicacion="2023">
+        <titulo>Aprendiendo JavaScript</titulo>
+        <autor>Carlos Azaustre</autor>
+        <isbn>979-8852737427</isbn>
+        <paginas>286</paginas>
+    </libro>
+    <libro anno_publicacion="2022">
+        <titulo>El programador prágmatico</titulo>
+        <autores>
+            <autor>David Thomas</autor>
+            <autor>Andrew Hunt</autor>
+        </autores>
+        <isbn>978-8441545878</isbn>
+        <paginas>339</paginas>
+    </libro>
+</libros>

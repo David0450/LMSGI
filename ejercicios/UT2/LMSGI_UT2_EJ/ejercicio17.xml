@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta_cocina [
+    <!ELEMENT receta_cocina (nombre,ingrediente*)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ingrediente (#PCDATA)>
+]>
+<receta_cocina>
+    <nombre>Dip cementerio</nombre>
+    <ingrediente>Frijoles cocidos</ingrediente>
+    <ingrediente>Creme Fraiche o crema fresca</ingrediente>
+    <ingrediente>sazonador para quesadillas, burritos o tacos</ingrediente>
+    <ingrediente>Salsa Tabasco unas gotas</ingrediente>
+    <ingrediente>Aguacate maduro</ingrediente>
+    <ingrediente>Tortillas de trigo</ingrediente>
+    <ingrediente>Lechuga iceberg</ingrediente>
+</receta_cocina>

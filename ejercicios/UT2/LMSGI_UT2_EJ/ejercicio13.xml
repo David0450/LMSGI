@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehiculo [
+    <!ELEMENT vehiculo (marca, modelo, precio, numBastidor, matriculado)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT numBastidor (#PCDATA)>
+    <!ELEMENT matriculado EMPTY>
+]>
+<vehiculo>
+    <marca>BMW</marca>
+    <modelo>Serie 1 118i</modelo>
+    <precio>30000€</precio>
+    <numBastidor>WW221023W269546</numBastidor>
+    <matriculado />
+</vehiculo>

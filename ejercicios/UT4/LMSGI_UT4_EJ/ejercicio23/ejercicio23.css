@@ -1,0 +1,39 @@
+.container1 {
+    color: green;
+    border: 1px solid red;
+}
+
+.container2 {
+    color: green;
+    border: 1px solid red;
+}
+.child2 {
+    border: inherit;
+}
+
+.container3 {
+    color: green;
+    border: 1px solid red;
+}
+.child3 {
+    color: initial;
+    border: inherit;
+}
+
+.container4 {
+    color: green;
+    border: 1px solid red;
+    font-style: italic;
+}
+.child4 {
+    border: inherit;
+}
+
+.container5 {
+    color: green;
+    border: 1px solid red;
+    font-style: italic;
+}
+.child5 {
+    all: initial;
+}

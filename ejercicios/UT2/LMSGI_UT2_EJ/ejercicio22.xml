@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas [
+    <!ELEMENT deportistas (f1*, tenis*, futbol*)>
+        <!ELEMENT f1 (#PCDATA)>
+            <!ATTLIST f1 codigo ID #REQUIRED>
+            <!ATTLIST f1 pais (ESP|ITA|ALE|FRA) "ESP">
+        <!ELEMENT tenis (#PCDATA)>
+            <!ATTLIST tenis pais (ESP|ITA|ALE|FRA) "ESP">
+        <!ELEMENT futbol (#PCDATA)>
+            <!ATTLIST futbol pais (ESP|ITA|ALE|FRA) "ESP">
+]>
+<deportistas>
+    <f1 codigo="VET" pais="ALE">Sebastian Vettel</f1>
+    <f1 codigo="ALO">Fernando Alonso</f1>
+    <f1 codigo="SAI" pais="ESP">Carlos Sainz</f1>
+    <tenis>Rafael Nadal</tenis>
+</deportistas>
