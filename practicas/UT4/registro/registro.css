@@ -1,0 +1,87 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: #008C8C;
+    height: 150px;
+}
+
+article {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+article {
+    padding-top: 50px;
+}
+
+table {
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    border-radius: 0 0 15px 15px;
+    width: 550px;
+    height: 400px;
+}
+
+th {
+    text-align: start;
+    padding-left: 20px;
+}
+
+input {
+    margin: 0 15px 0 15px;
+}
+
+input:not(.radio) {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 225px;
+}
+
+caption {
+    background-color: #EEEEEE;
+    border-radius: 15px 15px 0 0;
+    font-weight: 700;
+    font-size: 16pt;
+    color: #008C8C;
+    padding-top: 20px;
+}
+
+hr {
+    color: #008C8C;
+    width: 90%;
+    height: 4px;
+    background-color: #008C8C;
+    border:none;
+}
+
+input .radio {
+    border: solid 1px gray;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 10pt;
+    width: 200px;
+    height: 30px;
+}
+
+#reset {
+    background-color: #FF0101;
+    color: white;
+}
+
+#submit {
+    color: white;
+    background-color: #008C8C;
+}

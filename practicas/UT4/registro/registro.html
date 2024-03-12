@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="registro.css">
+        <title>Registro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Formulario de registro</h1>
+        </header>
+        <section>
+            <article>
+                <form>
+                    <table>
+                        <caption>Registrate<hr></caption>
+                        <tr>
+                            <th>Nombre completo</th>
+                            <th colspan="3">Username</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Introduce tu nombre"> </td>
+                            <td colspan="3"><input type="text" placeholder="Escribe un username"></td>
+                        </tr>
+                        <tr>
+                            <th>Correo electrónico</th>
+                            <th colspan="3">Teléfono</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="Introduce un correo"> </td>
+                            <td colspan="3"><input type="text" placeholder="Introduce tu número"></td>
+                        </tr>
+                        <tr>
+                            <th>Contraseña</th>
+                            <th colspan="3">Repite la contraseña</th>
+                        </tr>
+                        <tr>
+                            <td><input type="password"></td>
+                            <td colspan="3"><input type="password"> </td>
+                        </tr>
+                        <tr>
+                            <th>Fecha de nacimiento</th>
+                            <th colspan="3">Género</th>
+                        </tr>
+                        <tr>
+                            <td><input type="date"></td>
+                            <td><input type="radio" class="radio" name="genero" value="mujer">Mujer</td>
+                            <td><input type="radio" class="radio" name="genero" value="hombre">Hombre</td>
+                            <td><input type="radio" class="radio" name="genero" value="otro">Otro</td>
+                        </tr>
+                        <tr>
+                            <th><button type="reset" id="reset">Borrar</button></th>
+                            <th colspan="3"><button type="submit" id="submit">Enviar</button></th>
+                        </tr>
+                    </table>
+                </form>
+            </article>
+        </section>
+    </body>
+</html>

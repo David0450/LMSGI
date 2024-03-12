@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFEFEF;
+    text-align: center;
+    font-weight: 700;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 0px;
+}
+
+#calen {
+    background-color: #FFFFFF;
+}
+
+#calen thead {
+    background-color: #FF8D30;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.vac {
+    background-color: #3963DA;
+    color: #FFFFFF;
+}
+
+.dld {
+    background-color: #008024;
+    color: #FFFFFF;
+}
+
+.fest {
+    background-color: #DEA63D;
+    color: #FFFFFF;
+}
+
+.nexmon {
+    background-color: #D2D2D2;
+}
+
+.prevmon {
+    color: #7F7F7F;
+}
+
+.finde {
+    color: #E72B52;
+}
+
+caption {
+    text-align: end;
+    font-size: 17pt;
+}
+
+p {
+    margin: 0 auto;
+    width: 50%;
+    font-weight: 500;
+}
+
+#calen th, #calen td {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#today {
+    font-size: 14pt;
+    width: 70px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.315);
+}
+
+#mesanterior {
+    margin-right: -20px;
+}
+
+#mesposterior {
+    margin-left: -20px;
+}
+
+#today th {
+    background-color: #FF8D30;
+    color: #FFFFFF;
+    height: 30px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#today td {
+    background-color: #FFFFFF;
+    height: 30px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#creditos {
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+
+.boton {
+    width: 220px;
+}
+
+button {
+    background-color: #FF8D30;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+button:active {
+    background-color: #aa5c1b;
+}
