@@ -1,0 +1,6 @@
+<!ELEMENT monarcas (monarca*)>
+<!ELEMENT monarca (nombre, inicio_reinado, fin_reinado, dinastia)+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT inicio_reinado (#PCDATA)>
+<!ELEMENT fin_reinado (#PCDATA)>
+<!ELEMENT dinastia (#PCDATA)>

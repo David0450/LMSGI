@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE multa [
+    <!ELEMENT multa (vehiculo, infractor, infracciones+)>
+        <!ATTLIST multa num_expediente CDATA #REQUIRED>
+        <!ATTLIST multa importe CDATA #REQUIRED>
+        <!ATTLIST multa fecha CDATA #REQUIRED>
+        <!ATTLIST multa hora CDATA #REQUIRED>
+        <!ELEMENT vehiculo (marca, modelo, matricula)>
+            <!ELEMENT marca (#PCDATA)>
+            <!ELEMENT modelo (#PCDATA)>
+            <!ELEMENT matricula (#PCDATA)>
+        <!ELEMENT infractor (nombre, dni, telefono)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT dni (#PCDATA)>
+            <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT infracciones (infraccion*)>
+            <!ELEMENT infraccion (descripcion, puntos, abonado*, coste)>
+                <!ATTLIST infraccion articulo ID #REQUIRED>
+                <!ATTLIST infraccion tipo (Leve|Moderada|Grave) #IMPLIED>
+                <!ELEMENT descripcion (#PCDATA)>
+                <!ELEMENT puntos (#PCDATA)>
+                <!ELEMENT abonado EMPTY>
+                <!ELEMENT coste (#PCDATA)>
+    ]>
+<multa num_expediente="31" importe="300€" fecha="10-11-2023" hora="01:33">
+    <vehiculo>
+        <marca>Aston Martin</marca>
+        <modelo>Vantage</modelo>
+        <matricula>8039LVJ</matricula>
+    </vehiculo>
+    <infractor>
+        <nombre>Max Verstappen</nombre>
+        <dni>45895623T</dni>
+        <telefono>956513490</telefono>
+    </infractor>
+    <infracciones>
+        <infraccion articulo="rd48" tipo="Grave">
+            <descripcion>Circular a 135 km/h teniendo limitada la velocidad a 120 km/h.</descripcion>
+            <puntos>0</puntos>
+            <abonado/>
+            <coste>100€</coste>
+        </infraccion>
+        <infraccion articulo="rd101.1" tipo="Grave">
+            <descripcion>Circular en poblado por via insuficienttemente iluminada sin llevar encendido el alumbrado.</descripcion>
+            <puntos>2</puntos>
+            <coste>200€</coste>
+        </infraccion>
+    </infracciones>
+</multa>
