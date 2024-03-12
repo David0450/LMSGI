@@ -1,0 +1,45 @@
+{   "fruteria":
+    {
+        "nombre":"Fruteria Caballa",
+        "direccion":"C/ de la fruta, 5, 51002 Ceuta",
+        "correo":"caba.frutas@gmail.com",
+        "telefono":"956 95 69 56",
+        "productos": 
+        {
+            "frutas": [
+                {
+                    "nombre":"Platano de Canarias",
+                    "variedad":"Fruta dulce",
+                    "procedencia":"Canarias",
+                    "disponibilidad":"Disponible"
+                },
+                {
+                    "nombre":"Naranja",
+                    "variedad":"Fruta citrica",
+                    "procedencia":"Sevilla",
+                    "disponibilidad":"Disponible"
+                },
+                {
+                    "nombre":"Melon",
+                    "variedad":"Fruta dulce",
+                    "procedencia":"Murcia",
+                    "disponibilidad":"No disponible"
+                }
+            ],
+            "verduras": [
+                {
+                    "nombre":"Berenjena",
+                    "variedad":"Hortaliza",
+                    "procedencia":"Almeria",
+                    "disponibilidad":"Disponible"
+                },
+                {
+                    "nombre":"Brocoli",
+                    "variedad":"Hortaliza crucifera",
+                    "procedencia":"Murcia",
+                    "disponibilidad":"No disponible"
+                }
+            ]
+        }
+    }
+}

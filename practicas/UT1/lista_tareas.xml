@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lista_tareas>
+    <titulo>Mi lista de tareas</titulo>
+    <tareas>
+        <tarea>
+            <titulo>Proyecto de clase</titulo>
+            <descripcion>Terminar el proyecto de bases de datos</descripcion>
+            <tipo>Estudios</tipo>
+            <estado>Completada</estado>
+            <fecha_limite>03/10</fecha_limite>
+        </tarea>
+        <tarea>
+            <titulo>Mi habitacion</titulo>
+            <descripcion>Ordenar y limpiar mi habitacion</descripcion>
+            <tipo>Domestica</tipo>
+            <estado>Por completar</estado>
+            <fecha_limite>05/10</fecha_limite>
+        </tarea>
+        <tarea>
+            <titulo>La compra</titulo>
+            <descripcion>Comprar huevos, leche, cereales y miel</descripcion>
+            <tipo>Domestica</tipo>
+            <estado>Por completar</estado>
+            <fecha_limite>04/10</fecha_limite>
+        </tarea>
+        <tarea>
+            <titulo>Halloween</titulo>
+            <descripcion>Tener un disfraz para Halloween</descripcion>
+            <tipo>Ocio</tipo>
+            <estado>Por completar</estado>
+            <fecha_limite>31/10</fecha_limite>
+        </tarea>
+        <tarea>
+            <titulo>Examen</titulo>
+            <descripcion>Estudiar para el examen de lenguaje de marcas</descripcion>
+            <tipo>Estudios</tipo>
+            <estado>Completada</estado>
+            <fecha_limite>04/10</fecha_limite>
+        </tarea>
+    </tareas>
+</lista_tareas>

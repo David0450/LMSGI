@@ -1,0 +1,48 @@
+{   "playlist":
+    {
+        "titulo":"Mi playlist",
+        "autor":"Juanan",
+        "canciones": [
+            {
+                "nombre":"FEEL ME??",
+                "artista":"Trueno",
+                "discografia":"NEUEN",
+                "duracion":"3:07",
+                "anio":"2021",
+                "genero":"Urban latino"
+            },
+            {
+                "nombre":"Viva la vida",
+                "artista":"Coldplay",
+                "discografia":"Parlophone",
+                "duracion":"4:02",
+                "anio":"2008",
+                "genero":"Pop"
+            },
+            {
+                "nombre":"Awake and alive",
+                "artista":"Skillet",
+                "discografia":"Atlantic Records",
+                "duracion":"3:29",
+                "anio":"2009",
+                "genero":"Rock"
+            },
+            {
+                "nombre":"2NITE",
+                "artista":"FUFU",
+                "discografia":"DBT",
+                "duracion":"2:40",
+                "anio":"2022",
+                "genero":"Hip-hop"
+            },
+            {
+                "nombre":"Lucid Dreams",
+                "artista":"Juice WRLD",
+                "discografia":"Interscope Records",
+                "duracion":"3:59",
+                "anio":"2018",
+                "genero":"Hip-hop"
+            }
+        ]
+    }
+}

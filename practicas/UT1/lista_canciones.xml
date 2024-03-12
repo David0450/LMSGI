@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<playlist>
+    <titulo>Mi playlist</titulo>
+    <autor>Juanan</autor>
+    <lista_canciones>
+        <cancion>
+            <nombre>FEEL ME??</nombre>
+            <artista>Trueno</artista>
+            <discografia>NEUEN</discografia>
+            <duracion unidades="segundos">187</duracion>
+            <anio>2021</anio>
+            <genero>Urbano latino</genero>
+        </cancion>
+        <cancion>
+            <nombre>Viva la vida</nombre>
+            <artista>Coldplay</artista>
+            <discografia>Parlophone</discografia>
+            <duracion unidades="segundos">242</duracion>
+            <anio>2008</anio>
+            <genero>Pop</genero>
+        </cancion>
+        <cancion>
+            <nombre>Awake and alive</nombre>
+            <artista>Skillet</artista>
+            <discografia>Atlantic Records</discografia>
+            <duracion unidades="segundos">209</duracion>
+            <anio>2009</anio>
+            <genero>Rock</genero>
+        </cancion>
+        <cancion>
+            <nombre>2NITE</nombre>
+            <artista>FUFU</artista>
+            <discografia>DBT</discografia>
+            <duracion unidades="segundos">160</duracion>
+            <anio>2022</anio>
+            <genero>Hip-hop</genero>
+        </cancion>
+        <cancion>
+            <nombre>Lucid Dreams</nombre>
+            <artista>Juice WRLD</artista>
+            <discografia>Interscope Records</discografia>
+            <duracion unidades="segundos">239</duracion>
+            <anio>2018</anio>
+            <genero>Hip-hop</genero>
+        </cancion>
+    </lista_canciones>
+</playlist>

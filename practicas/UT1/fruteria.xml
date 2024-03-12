@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fruteria>
+    <nombre>Fruteria Caballa</nombre>
+    <direccion>C/ de la fruta, 5, 51002 Ceuta</direccion>
+    <correo>caba.frutas@gmail.com</correo>
+    <telefono>956 95 69 56</telefono>
+    <productos>
+        <lista_frutas>
+            <fruta>
+                <nombre>Platano de Canarias</nombre>
+                <variedad>Fruta dulce</variedad>
+                <procedencia>Canarias</procedencia>
+                <disponibilidad>Disponible</disponibilidad>
+            </fruta>
+            <fruta>
+                <nombre>Naranja</nombre>
+                <variedad>Fruta citrica</variedad>
+                <procedencia>Sevilla</procedencia>
+                <disponibilidad>Disponible</disponibilidad>
+            </fruta>
+            <fruta>
+                <nombre>Melon</nombre>
+                <variedad>Fruta dulce</variedad>
+                <procedencia>Murcia</procedencia>
+                <disponibilidad>No disponible</disponibilidad>
+            </fruta>
+        </lista_frutas>
+        <lista_verduras>
+            <verdura>
+                <nombre>Berenjena</nombre>
+                <variedad>Hortaliza</variedad>
+                <procedencia>Almeria</procedencia>
+                <disponibilidad>Disponible</disponibilidad>
+            </verdura>
+            <verdura>
+                <nombre>Brocoli</nombre>
+                <variedad>Hortaliza crucifera</variedad>
+                <procedencia>Murcia</procedencia>
+                <disponibilidad>No disponible</disponibilidad>
+            </verdura>
+        </lista_verduras>
+    </productos>
+</fruteria>

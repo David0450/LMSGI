@@ -1,0 +1,42 @@
+{   "lista_tareas":
+    {
+        "titulo":"Mi lista de tareas",
+        "tareas": [
+            {
+                "titulo":"Proyecto de clase",
+                "descripcion":"Terminar el proyecto de bases de datos",
+                "tipo":"Estudios",
+                "estado":"Completada",
+                "fecha_limite":"03/10"
+            },
+            {
+                "titulo":"Mi habitacion",
+                "descripcion":"Ordenar y limpiar mi habitacion",
+                "tipo":"Domestica",
+                "estado":"Por completar",
+                "fecha_limite":"05/10"
+            },
+            {
+                "titulo":"La compra",
+                "descripcion":"Comprar huevos, leche, cereales y miel",
+                "tipo":"Domestica",
+                "estado":"Por completar",
+                "fecha_limite":"04/10"
+            },
+            {
+                "titulo":"Halloween",
+                "descripcion":"Tener un disfraz para Halloween",
+                "tipo":"Ocio",
+                "estado":"Por completar",
+                "fecha_limite":"31/10"
+            },
+            {
+                "titulo":"Examen",
+                "descripcion":"Estudiar para el examen de lenguaje de marcas",
+                "tipo":"Estudios",
+                "estado":"Completada",
+                "fecha_limite":"04/10"
+            }
+        ]
+    }
+}
