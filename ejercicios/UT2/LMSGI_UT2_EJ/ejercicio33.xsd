@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="usuarios">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="usuario">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="departamento" type="xs:string"/>
+                            <xs:element name="puntuacion" type="Tpuntuacion"/>
+                            <xs:element name="estado" type="Testado"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="Testado">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="9"/>
+            <xs:enumeration value="conectado"/>
+            <xs:enumeration value="ocupado"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Tpuntuacion">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="10"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

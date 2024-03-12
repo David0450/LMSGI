@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE figuras>
+
+<figuras>
+    <figuras_planas>
+        <figura lados="4">
+            <nombre>Cuadrado</nombre>
+        </figura>
+        <figura lados="3">
+            <nombre>Triángulo</nombre>
+        </figura>
+    </figuras_planas>
+    <figuras_tridimensionales>
+        <figura aristas="12" caras="6">
+            <nombre>Cubo</nombre>
+        </figura>
+    </figuras_tridimensionales>
+</figuras>

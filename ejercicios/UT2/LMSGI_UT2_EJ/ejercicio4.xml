@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hechos_historicos>
+
+<hechos_historicos>
+    <hecho descripcion="IBM da a conocer el Pc">
+        <fecha>
+            <dia>12</dia>
+            <mes>Agosto</mes>
+            <anno>1981</anno>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Tim Berners-Lee escribe la primera web">
+        <fecha>
+            <dia>20</dia>
+            <mes>Diciembre</mes>
+            <anno>1990</anno>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Google">
+        <fecha>
+            <dia>04</dia>
+            <mes>Septiembre</mes>
+            <anno>1998</anno>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Se funda Facebook">
+        <fecha>
+            <dia>04</dia>
+            <mes>Febrero</mes>
+            <anno>2004</anno>
+        </fecha>
+    </hecho>
+    <hecho descripcion="Steve Jobs presenta el iPhone">
+        <fecha>
+            <dia>29</dia>
+            <mes>Junio</mes>
+            <anno>2007</anno>
+        </fecha>
+    </hecho>
+</hechos_historicos>

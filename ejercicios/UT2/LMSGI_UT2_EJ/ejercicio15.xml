@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleado [
+    <!ELEMENT empleado (nombre, apellidos, fechaNacimiento, direccion, puesto, salario)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT fechaNacimiento (dia, mes, anno)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anno (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT salario (#PCDATA)>
+]>
+<empleado>
+    <nombre></nombre>
+    <apellidos></apellidos>
+    <fechaNacimiento>
+        <dia></dia>
+        <mes></mes>
+        <anno></anno>
+    </fechaNacimiento>
+    <direccion></direccion>
+    <puesto></puesto>
+    <salario></salario>
+</empleado>

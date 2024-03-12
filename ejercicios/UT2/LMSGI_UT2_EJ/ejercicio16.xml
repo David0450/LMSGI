@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cesta [
+    <!ELEMENT cesta (producto+)>
+    <!ELEMENT producto (#PCDATA)>
+]>
+<cesta>
+    <producto>WD BLACK SN770 1TB SSD PCIe Gen4 NVMe</producto>
+    <producto>Sony PlayStation 5</producto>
+    <producto>Xiaomi Pet Fountain</producto>
+</cesta>

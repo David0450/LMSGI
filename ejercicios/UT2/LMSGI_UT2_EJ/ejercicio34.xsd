@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="fichas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ficha">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="Tnombre"/>
+                            <xs:element name="edad" type="Tedad"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="Tnombre">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([A-Z]+([a-z]*)+[\s]*)*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="Tedad">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="120"/>
+            <xs:minInclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

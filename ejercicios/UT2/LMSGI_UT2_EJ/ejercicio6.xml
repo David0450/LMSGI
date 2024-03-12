@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos_futbol>
+
+<equipos_futbol>
+    <equipo>
+        <entrenador>Sergio Pellicer</entrenador>
+        <nombre>Málaga CF</nombre>
+        <estadio>La Rosaleda</estadio>
+        <ciudad>Málaga</ciudad>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Dioni Villalba</nombre>
+                <numero>17</numero>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador posicion="Centrocampista">
+                <nombre>Manu Molina</nombre>
+                <numero>23</numero>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador posicion="Defensa">
+                <nombre>Nélson Monte</nombre>
+                <numero>4</numero>
+                <nacionalidad>Portugués</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <entrenador>Rubén Baraja</entrenador>
+        <nombre>Valencia CF</nombre>
+        <estadio>Mestalla</estadio>
+        <ciudad>Valencia</ciudad>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Sergio Canós</nombre>
+                <numero>7</numero>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador posicion="Centrocampista">
+                <nombre>Selim Amallah</nombre>
+                <numero>19</numero>
+                <nacionalidad>Marroquí</nacionalidad>
+            </jugador>
+            <jugador posicion="Portero">
+                <nombre>Jaume Domènech</nombre>
+                <numero>1</numero>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos_futbol>
